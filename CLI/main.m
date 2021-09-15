@@ -26,5 +26,4 @@ int main(int argc, const char * argv[]) {
         [Output printMessage:message];
         
     }
-    return 0;
-}
+ return 0;}
