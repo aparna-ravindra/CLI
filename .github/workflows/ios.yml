@@ -31,4 +31,4 @@ jobs:
       - name: install oclint-xcodebuild
         run: |
           gem install xcpretty
-          xcodebuild build | xcpretty 
+          xcodebuild clean analyze | xcpretty 
