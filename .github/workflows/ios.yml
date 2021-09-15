@@ -30,5 +30,4 @@ jobs:
           xcodebuild build -scheme "$scheme" -"$filetype_parameter" "$file_to_build" 
       - name: install oclint-xcodebuild
         run: |
-          gem install xcpretty
-          xcodebuild clean analyze | xcpretty 
+          xcodebuild clean analyze 
