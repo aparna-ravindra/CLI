@@ -24,6 +24,7 @@ int main(int argc, const char * argv[]) {
         // print the user's input
         NSString *message = [NSString stringWithFormat:@"\nYou typed: %@\n\n", userInput];
         [Output printMessage:message];
-        
+        x=10;
     }
- return 0;}
+    return 0;
+}
